@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Portfolio - Almas Mahdi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="javascript" href="script.js">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html" class="nav-link"><img src="logo.jpg" alt="Logo"></a>
+                <span>Almas Mahdi</span>
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="features.html" class="nav-link">Features</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+                <li><a href="clients.html" class="nav-link">Clients</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="https://wa.me/qr/L5EXJP2E4JHIM1" class="btn" style="padding: 10px 20px; font-size: 12px;">Contact Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="container hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h4>WELCOME TO MY WORLD</h4>
+                <h1>Hi, I'm <span>Almas Mahdi</span><br>a HTML & CSS Developer.</h1>
+                <p>I don’t just build websites; I build digital environments. I am passionate about clean code, pixel-perfect implementation, and staying ahead of the curve as web standards evolve.</p>
+                
+                <div class="social-icons">
+                    <h5>FIND WITH ME</h5>
+                    <a href="https://www.facebook.com/share/1LghWQfLMC/" class="icon-box"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/__weird.x?igsh=MXFtNmM4OHZlNzg1cw==" class="icon-box"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/qr/L5EXJP2E4JHIM1" class="icon-box"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <a href="Profile.jpg" class="nav-link"><img src="Profile.jpg" alt="Almas Mahdi"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section-padding container">
+        <div class="section-title">
+            <h5>FEATURES</h5>
+            <h2>What I Do</h2>
+        </div>
+        <div class="grid-3">
+            <div class="card service-card">
+                <i class="fas fa-bars"></i>
+                <h3>Websites</h3>
+                <p>I believe in building a strong foundation. My code is structured for SEO, accessibility, and long-term maintainability.</p>
+                <a href="#" class="read-more"><i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="card service-card">
+                <i class="fas fa-code"></i>
+                <h3>Responsive Design</h3>
+                <p>I don't just make things work on mobile; I ensure a seamless experience across every screen size, from ultra-wide monitors to the smallest handheld devices.</p>
+                <a href="#" class="read-more"><i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="card service-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Problem Solving</h3>
+                <p>Four years in the industry has taught me how to debug layout shifts, optimize rendering paths, and ensure cross-browser compatibility even in the most challenging environments.</p>
+                <a href="#" class="read-more"><i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section-padding container">
+        <div class="section-title">
+            <h5>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h5>
+            <h2>My Portfolio</h2>
+        </div>
+        <div class="grid-3">
+            <div class="card portfolio-card">
+                <div class="portfolio-img">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=500" alt="Portfolio">
+                </div>
+                <h6>Development</h6>
+                <h3>The Services Provide</h3>
+            </div>
+            <div class="card portfolio-card">
+                <div class="portfolio-img">
+                     <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&w=500" alt="Portfolio">
+                </div>
+                <h6>Application</h6>
+                <h3>Mobile App Landing Design</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section-padding container">
+        <div class="section-title">
+            <h5>4+ YEARS OF EXPERIENCE</h5>
+            <h2>My Resume</h2>
+        </div>
+        <div class="resume-container">
+            <div class="resume-col">
+                <h3>Education Quality</h3>
+                <div class="resume-item">
+                    <div class="resume-header">
+                        <h4>BS in Information technology</h4>
+                        <span class="badge">3.3/4</span>
+                    </div>
+                    <p>University of Layyah (Still Studying)</p>
+                    <p style="margin-top:10px; font-size:14px;">The training provided by universities in order to prepare people to work in various sectors.</p>
+                </div>
+            </div>
+            <div class="resume-col">
+                <h3>Job Experience</h3>
+                <div class="resume-item">
+                    <div class="resume-header">
+                        <h4>Web Developer</h4>
+                        <span class="badge">Dev</span>
+                    </div>
+                    <p>Project Developer Team - (2022 - Present)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding container">
+        <div class="section-title">
+            <h5>CONTACT</h5>
+            <h2>Contact With Me</h2>
+        </div>
+
+        <div class="contact-wrapper">
+            <div class="card contact-info">
+                <div class="contact-card-img">
+                    <img src="https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Contact Handshake">
+                </div>
+                <h3>Almas Mahdi</h3>
+                <span>Chief Operating Officer</span>
+                <p>I am available for freelance work. Connect with me via and call in to my account.</p>
+                
+                <div class="phone-email">
+                    <p>Phone: <strong>+923080671101</strong></p>
+                    <p>Email: <strong>almasmahdi420@gmail.com</strong></p>
+                </div>
+
+                <div class="contact-social">
+                    <h5>FIND WITH ME</h5>
+                    <a href="https://www.facebook.com/share/1LghWQfLMC/" class="icon-box"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/__weird.x?igsh=MXFtNmM4OHZlNzg1cw==" class="icon-box"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/qr/L5EXJP2E4JHIM1" class="icon-box"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="card contact-form">
+                <form>
+                    <div class="form-group-row">
+                        <div>
+                            <label class="form-label">YOUR NAME</label>
+                            <input type="text" class="form-input">
+                        </div>
+                        <div>
+                            <label class="form-label">PHONE NUMBER</label>
+                            <input type="text" class="form-input">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">EMAIL</label>
+                        <input type="email" class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">SUBJECT</label>
+                        <input type="text" class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">YOUR MESSAGE</label>
+                        <textarea class="form-input"></textarea>
+                    </div>
+
+                    <button type="button" class="btn" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="logo" style="justify-content: center; margin-bottom: 15px;">
+                <a href="index.html" class="nav-link"><img src="logo.jpg" alt="Logo"></a>
+                <span>Almas Mahdi</span>
+            </div>
+            <p>&copy; 2026. All rights reserved by Almas Mahdi.</p>
+        </div>
+    </footer>
+</body>
+</html>
